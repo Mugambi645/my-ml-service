@@ -19,7 +19,8 @@ application = get_wsgi_application()
 import inspect
 from ml.registry import MLRegistry
 from ml.random_forest import RandomForestClassifier
-
+from ml.random_forest import RandomForestClassifier
+from endpoints.extra_trees import ExtraTreesClassifier
 try:
     registry = MLRegistry() # create ML registry
     # Random Forest classifier
@@ -30,7 +31,7 @@ try:
                             algorithm_name="random forest",
                             algorithm_status="production",
                             algorithm_version="0.0.1",
-                            owner="Piotr",
+                            owner="Patrick",
                             algorithm_description="Random Forest with simple pre- and post-processing",
                             algorithm_code=inspect.getsource(RandomForestClassifier))
 
