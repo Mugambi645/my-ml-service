@@ -2,6 +2,6 @@
 
 - Minimal machine learning implementation with django-rest-framework 
 
-- ![Getting Started](./Screenshot from 2025-02-19 23-45-54.png)
+<img src="./Screenshot from 2025-02-19 23-45-54.png" alt="Getting started" />
 
-- ![Getting Started](./Screenshot from 2025-02-19 23-46-38.png)
+<img src="./Screenshot from 2025-02-19 23-46-38.png" alt="Getting started" />
